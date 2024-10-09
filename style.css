@@ -9,18 +9,64 @@ a{
     text-decoration: none;
 }
 
+.quad1{
+    height: 45vh;
+    width: 40vh;
+    background-color: white;
+    padding-inline: 10px;
+    opacity: 36%;
+}
+
+.quad2{
+    height: 45vh;
+    width: 40vh;
+    padding-inline: 10px;
+    position: absolute;
+    top: 25%;
+    right: 17%;
+    background-color: white;
+    opacity: 36%;
+}
+
+.quad3{
+    height: 45vh;
+    width: 40vh;
+    padding-inline: 10px;
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    background-color: white;
+    opacity: 36%;
+}
+
+.title{
+    height: 100vh;
+    width: 50vh;
+    padding-inline: 10 px;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    color: white;
+}
+
+.title p{
+    font-family: "Love Ya Like A Sister", cursive;
+    width: 90%;
+    
+}
+
 body{
     height: 70vh;
-    padding-inline: 100px;
+    padding-inline: 10vh;
     background-image: url('./img/events.jpg');
     background-size: 57% 150%;
-    background-position-x: 850px;
-    background-position-y: 0px;
+    background-position-x: 100%;
+    background-position-y: 0%;
     background-repeat: no-repeat;
 }
 
 header{
-    height: 100px;
+    height: 5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,14 +74,14 @@ header{
 }
 
 .menu{
-    gap: 130px;
+    gap: 55%;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 100%;
 }
 
 .menu2{
-    gap: 29px;
+    gap: 2vh;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -45,7 +91,6 @@ main{
     flex-grow: 1;
     display: flex;
 }
-
 
 .conteudo {
     height: 100%;
@@ -58,7 +103,7 @@ main{
 .conteudo p {
     font-family: "Exo", sans-serif;
     width: 90%;
-    font-size: 140px;
+    font-size: 900%;
     padding-top: 2%;
     font-weight: 200;
 }
@@ -89,7 +134,7 @@ main{
 
 .tickets p{
     font-family: "Actor", sans-serif;
-    font-size: 150px;
+    font-size: 950%;
     color: #FF8D00;
 }
 
@@ -102,23 +147,21 @@ main{
 }
     
 .now p{
-    font-size: 90px;
+    font-size: 590%;
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 395;
     padding-bottom: 20%;
 }
 
 .acao button{
-    height: 100px;
-    width: 400px;
-    font-size: 40px;
+    height: 8vh;
+    width: 35vh;
+    font-size: 4vh;
     background-color: #FF8D00;
     color: black;
-    border-radius: 30px;
+    border-radius: 2vh;
 }
 
-
-
 footer{
-    height: 100px;
+    height: 100%;
 }
