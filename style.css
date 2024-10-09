@@ -11,16 +11,16 @@ a{
 
 .quad1{
     height: 45vh;
-    width: 40vh;
+    width: 36vh;
     background-color: white;
-    padding-inline: 10px;
+    padding-inline: 10%;
     opacity: 36%;
 }
 
 .quad2{
     height: 45vh;
-    width: 40vh;
-    padding-inline: 10px;
+    width: 36vh;
+    padding-inline: 10%;
     position: absolute;
     top: 25%;
     right: 17%;
@@ -30,8 +30,8 @@ a{
 
 .quad3{
     height: 45vh;
-    width: 40vh;
-    padding-inline: 10px;
+    width: 36vh;
+    padding-inline: 10%;
     position: absolute;
     top: 45%;
     right: 5%;
@@ -42,17 +42,47 @@ a{
 .title{
     height: 100vh;
     width: 50vh;
-    padding-inline: 10 px;
+    padding-inline: 5vh;
     position: absolute;
-    top: 25%;
-    right: 25%;
+    top: 34%;
+    right: 23%;
     color: white;
 }
 
 .title p{
     font-family: "Love Ya Like A Sister", cursive;
-    width: 90%;
-    
+    width: 200%;
+    font-size: 20vh;
+}
+
+.bola1{
+    height: 1vw;
+    width: 1vw;
+    position: absolute;
+    top: 95%;
+    right: 29%;
+    background-color: #FF8D00;
+    border-radius: 2vw;
+}
+
+.bola2{
+    height: 1vw;
+    width: 1vw;
+    position: absolute;
+    top: 95%;
+    right: 27.5%;
+    background-color: #FF8D00;
+    border-radius: 2vw;
+} 
+
+.bola3{
+    height: 1vw;
+    width: 1vw;
+    position: absolute;
+    top: 95%;
+    right: 26%;
+    background-color: #FF8D00;
+    border-radius: 2vw;
 }
 
 body{
